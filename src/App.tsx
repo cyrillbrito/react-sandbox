@@ -43,9 +43,6 @@ export default class extends Component {
   };
 
   render() {
-
-    const board = [[1, 2, 3], [123]];
-
     return (
       <Board tick={this.functick}></Board>
     );
