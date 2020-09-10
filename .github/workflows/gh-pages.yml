@@ -3,7 +3,7 @@ workflowsname: github pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
