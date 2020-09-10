@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Tile } from './Tile';
 import { Board } from './board/Board';
 
 export default class extends Component {
