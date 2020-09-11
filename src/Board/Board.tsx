@@ -14,7 +14,7 @@ interface BoardState {
 
 export class Board extends Component<BoardProps, BoardState> {
 
-  componentWillMount() {
+  componentDidMount() {
     setInterval(() => {
       this.setState({ board: this.props.tick() });
     }, 1);
@@ -22,7 +22,7 @@ export class Board extends Component<BoardProps, BoardState> {
 
   render() {
 
-    if(!this.state?.board){
+    if (!this.state?.board) {
       return <div>No board</div>;
     }
 
