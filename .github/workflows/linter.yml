@@ -1,4 +1,4 @@
-name: Lint Code Base
+name: Codecov
 
 on:
   push:
@@ -13,10 +13,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-
-      - name: Lint Code Base
-        uses: github/super-linter@v3
-        env:
-          VALIDATE_ALL_CODEBASE: true
-          DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Lint Code
+        - uses: codecov/codecov-action@v1

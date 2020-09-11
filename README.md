@@ -1,4 +1,6 @@
 
+# React Sandbox
+
 ![GitHub Pages](https://github.com/cyrillbrito/react-sandbox/workflows/github%20pages/badge.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
