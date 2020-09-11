@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { RainyColors } from './RainyColors/RainyColors';
-import { Breadcrumb, Button, Layout, Menu } from 'antd';
+import { Layout, Menu } from 'antd';
 
 export class App extends Component {
 
@@ -9,7 +9,7 @@ export class App extends Component {
   render() {
 
 
-    const { Header, Content, Footer } = Layout;
+    const { Header, Content } = Layout;
     return (
       <Layout className="layout">
         <Header>
